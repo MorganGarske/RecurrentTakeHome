@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "lib": ["ES2015"],
+      "module": "CommonJS",
+      "outDir": "lib",
+      "sourceMap": true,
+      "target": "ES2015",
+      "strict": true,
+      "experimentalDecorators": true,
+      "skipLibCheck": true,
+  },
+  "include": [
+      "src"
+  ],
+  "exclude": [
+    "./tst/",
+    "./node_modules/",
+    "./lib/"
+  ]
+}
